@@ -1,0 +1,37 @@
+{
+  "name": "langgraph-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/community": "^0.3.24",
+    "@langchain/core": "^0.3.28",
+    "@langchain/langgraph": "^0.2.39",
+    "@langchain/openai": "^0.3.16",
+    "@langchain/textsplitters": "^0.1.0",
+    "@zilliz/milvus2-sdk-node": "^2.5.4",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.7",
+    "googleapis": "^144.0.0",
+    "https-proxy-agent": "^7.0.6",
+    "ignore": "^7.0.0",
+    "langchain": "^0.3.11",
+    "langsmith": "^0.2.14",
+    "lodash": "^4.17.21",
+    "node-fetch": "^3.3.2",
+    "openai": "^4.78.1",
+    "pdf-parse": "^1.1.1",
+    "tslab": "^1.0.22",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3",
+    "zod": "^3.24.1",
+    "zod-to-json-schema": "^3.24.1"
+  }
+}
