@@ -120,7 +120,6 @@ export const chartTool = tool(
             ctx.stroke()
             ctx.fillText(d.toString(), margin.left - 8, yCoord)
         })
-        console.log('+++ show canvas png')
         const buffer = canvas.toBuffer()
         // 这个方法很重要
         await displayImage(buffer)
