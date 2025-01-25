@@ -38,3 +38,10 @@ export const displayImage = async (data) => {
     })
     return null
 }
+
+export async function printGraph(graph) {
+    const image = await graph.drawMermaidPng();
+    const arrayBuffer = await image.arrayBuffer();
+
+    return Deno.jupyter.image(new Uint8Array(arrayBuffer))
+}
